@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Financeiro Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="">
+        <h1>Coin Keeper</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="informacoes.html">Informações</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="titulo">
+                <h1>Seja Bem Vindo ao Coin Keeper!</h1>
+                <p>Ajudaremos você a controlar o seu dinheiro</p>
+            </div>
+
+            <fieldset>
+                <legend>Renda Mensal</legend>
+                <label for="renda">Informe sua renda mensal: </label><br>
+                R$<input type="number" id="renda" name="renda">
+            </fieldset>
+
+            <fieldset>
+                <legend>Gastos</legend>
+                <label for="gasto_fixo">Informe seu gasto fixo mensal:</label><br>
+                R$<input type="number" id="gasto_fixo" name="gasto_fixo">
+
+                <br><br>
+
+                <label for="gasto_variavel">Informe seus gastos variáveis ex(mercado, show, cinema):</label><br>
+                R$<input type="number" id="gasto_variavel" name="gasto_variavel">
+            </fieldset>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Desenvolvido por Ágil Tech Legends</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
