@@ -38,6 +38,10 @@ li.left {
     border-left: 3px solid #ccc;
 }
 
+a.selected {
+    color: #ffd700;
+}
+
 li a {
     text-decoration: none;
     font-weight: bold;
