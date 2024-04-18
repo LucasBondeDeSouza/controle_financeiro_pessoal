@@ -22,32 +22,33 @@ img {
 
 nav ul {
     list-style-type: none;
+    background-color: #006bde;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     text-align: center;
 }
 
-nav ul li {
-    background-color: #006bde;
-    padding: 10px;
-    border-radius: 5px;
+li.primeiro {
+    border-right: 3px solid #ccc;
+}
+
+li.left {
+    border-left: 3px solid #ccc;
 }
 
 li a {
     text-decoration: none;
-    color: #fff;
-}
-
-li a:hover {
-    color: #ffd700;
     font-weight: bold;
+    font-size: 20px;
+    color: #fff;
 }
 
 nav ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
-    gap: 20px;
 }
 
 .container {
