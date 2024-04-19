@@ -24,25 +24,26 @@
         <div class="container">
             <div class="titulo">
                 <h1>Seja Bem Vindo ao Coin Keeper!</h1>
-                <p>Ajudaremos você a controlar o seu dinheiro</p>
+                <p>Domine suas finanças com o Coin Keeper. Controle sua renda e gastos de forma fácil e eficaz. Alcance seus objetivos financeiros com tranquilidade.</p>
             </div>
 
-            <fieldset>
-                <legend>Renda Mensal</legend>
-                <label for="renda">Informe sua renda mensal: </label><br>
-                R$<input type="number" id="renda" name="renda">
-            </fieldset>
+            <form action="">
+                <div class="renda_mensal">
+                    <h2>Renda Mensal</h2>
+                    <label for="renda">Informe sua renda mensal:</label>
+                    <input type="number" id="renda" name="renda" min="0">
+                </div>
+                <div class="gastos">
+                    <h2>Gastos</h2>
+                    <label for="gasto_fixo">Informe seu gasto fixo mensal:</label>
+                    <input type="number" id="gasto_fixo" name="gasto_fixo" min="0">
+    
+                    <label for="gasto_variavel">Informe seus gastos variáveis (ex: mercado, cinema):</label>
+                    <input type="number" id="gasto_variavel" name="gasto_variavel" min="0">
+                </div>
 
-            <fieldset>
-                <legend>Gastos</legend>
-                <label for="gasto_fixo">Informe seu gasto fixo mensal:</label><br>
-                R$<input type="number" id="gasto_fixo" name="gasto_fixo">
-
-                <br><br>
-
-                <label for="gasto_variavel">Informe seus gastos variáveis ex(mercado, show, cinema):</label><br>
-                R$<input type="number" id="gasto_variavel" name="gasto_variavel">
-            </fieldset>
+                <input type="submit" value="Calcular">
+            </form>
         </div>
     </main>
 
