@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".,/img/logo.png" type="image/x-icon">
+    <title>Controle Financeiro Pessoal</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="">
+        <h1>Coin Keeper</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="primeiro"><a class="selected" href="./menu.html">Home</a></li>
+            <li class="segundo"><a href="./informacoes.html">Informações</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="titulo">
+                <h1>Seja Bem Vindo ao Coin Keeper!</h1>
+                <p>Domine suas finanças com o Coin Keeper. Controle sua renda e gastos de forma fácil e eficaz. Alcance seus objetivos financeiros com tranquilidade.</p>
+            </div>
+
+            <form action="">
+                <div class="renda_mensal">
+                    <h2>Renda Mensal</h2>
+                    <label for="renda">Informe sua renda mensal:</label>
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="renda" name="renda" min="0" required>
+                    </div>
+                </div>
+                <div class="gastos">
+                    <h2>Gastos Mensais</h2>
+                    
+                    <label for="gasto_fixo">Informe seu gasto fixo mensal:</label>
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="gasto_fixo" name="gasto_fixo" min="0" required>
+                    </div>
+    
+                    <label for="gasto_variavel">Informe seus gastos variáveis (ex: mercado, cinema):</label>
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="gasto_variavel" name="gasto_variavel" min="0" required>
+                    </div>
+                </div>
+
+                <input type="submit" value="Calcular">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Desenvolvido por Ágil Tech Legends</p>
+    </footer>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>

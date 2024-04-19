@@ -1,0 +1,34 @@
+@import url(home.css);
+
+.informacoes {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.informacoes h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.informacoes input {
+    width: 100px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #edecec;
+    border: none;
+}
+
+.informacoes hr {
+    color: #f0f0f0;
+    margin-block: 40px;
+}
+
+.informacoes p {
+    font-size: 20px;
+}
+
+.informacoes .melhorar_situacao {
+    font-weight: bold;
+}
