@@ -31,15 +31,25 @@
                 <div class="renda_mensal">
                     <h2>Renda Mensal</h2>
                     <label for="renda">Informe sua renda mensal:</label>
-                    <input type="number" id="renda" name="renda" min="0">
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="renda" name="renda" min="0" required>
+                    </div>
                 </div>
                 <div class="gastos">
                     <h2>Gastos Mensais</h2>
+                    
                     <label for="gasto_fixo">Informe seu gasto fixo mensal:</label>
-                    <input type="number" id="gasto_fixo" name="gasto_fixo" min="0">
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="gasto_fixo" name="gasto_fixo" min="0" required>
+                    </div>
     
                     <label for="gasto_variavel">Informe seus gastos variáveis (ex: mercado, cinema):</label>
-                    <input type="number" id="gasto_variavel" name="gasto_variavel" min="0">
+                    <div>
+                        <p>R$</p>
+                        <input type="number" id="gasto_variavel" name="gasto_variavel" min="0" required>
+                    </div>
                 </div>
 
                 <input type="submit" value="Calcular">
