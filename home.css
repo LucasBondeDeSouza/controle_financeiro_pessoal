@@ -70,6 +70,10 @@ form {
     gap: 30px;
 }
 
+form h2 {
+    font-size: 35px;
+}
+
 form label {
     margin-bottom: 10px;
 }
@@ -104,6 +108,10 @@ form div p {
     text-align: start;
     font-weight: bold;
     font-size: 15px;
+}
+
+.gastos div {
+    margin-bottom: 5px;
 }
 
 form input[type="number"]::-webkit-outer-spin-button,
