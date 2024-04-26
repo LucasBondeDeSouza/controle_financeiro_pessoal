@@ -6,6 +6,10 @@ body {
 }
 
 header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     background-color: #007bff;
     color: #fff;
     text-align: center;
